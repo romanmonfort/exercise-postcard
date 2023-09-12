@@ -1,0 +1,60 @@
+body {
+	background-image: url("https://us.123rf.com/450wm/dekay/dekay1612/dekay161200021/67840843-resumen-desenfoque-de-fondo-liso-para-cualquier-dise%C3%B1o-para-poner.jpg");
+	background-size: cover;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header,
+.postcard-body {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 501px;
+	margin: 0;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+input {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid black;
+}
+
+/*Para que cambie el color cuando el puntero sobre
+ el input,no se si se podia decorar pero queda mas intuituvo */
+input:hover {
+	background-color: yellow;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: gray;
+	padding: 2px;
+}
+button:hover {
+	background-color: rgb(2, 252, 106);
+	border: none;
+}
+button:active {
+	background-color: rgb(165, 0, 0);
+}
